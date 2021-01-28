@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika', sans-serif;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+body {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+
+/* navbar styling */
+
+.container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    background-color: none;
+	text-align: center;
+}
+
+.container a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.navbar a:before, .navbar a:after{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: rgb(255, 255, 255);
+    transition: all 0.3s;
+}
+
+.navbar a:before{
+    left: 0px;
+    top: 0px;
+}
+
+.navbar a:after{
+    right: 0px;
+    bottom: 0px;
+}
+
+.navbar a:hover:before, .navbar a:hover:after{
+    opacity: 1;
+    width: 100%;
+}
+
+
+/* common */
+
+a{
+    color: black;
+}
+
+/* Pages styling */
+ 
+.pages{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* home styling */
+.home{
+    background: #29b930;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home h1{
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+.home p{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+/* about me styling */
+
+.about{
+    background-color: none;
+}
+
+/* self-portrait */
+
+.about img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+/* responsive */
+
