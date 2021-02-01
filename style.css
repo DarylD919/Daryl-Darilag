@@ -107,7 +107,8 @@ body {
 /* common */
 
 a{
-    color: black;
+    color: rgb(0, 0, 0);
+
 }
 
 /* Pages styling */
@@ -119,15 +120,6 @@ a{
     align-items: center;
 }
 
-.project-pages{
-  min-height: 100vh;
-  padding: 40px;
-
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
 
 /* home styling */
 .home{
@@ -182,7 +174,31 @@ a{
 
 
 /* project */
+.project h1{
+  text-align: center;
+}
 
+.project-pages{
+  min-height: 100vh;
+  padding: 40px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+video{
+  max-width: 100%;
+  height: auto;
+}
 
 
 /* card */
@@ -195,9 +211,9 @@ a{
   --dark: hsl(var(--hue), 25%, 10%);
   --grey: hsl(0, 0%, 50%);
 
-  width: 310px;
-  height: 500px;
-  margin: 40px;
+  width: 300px;
+  height: 450px;
+  margin: 20px;
 
   perspective: 1000px;
 }
@@ -337,7 +353,7 @@ figcaption {
 
 /* ul */
 .project ul {
-  padding-top: 50%;
+  padding-top: 20%;
   margin: 0 auto;
   width: 70%;
   height: 100%;
@@ -357,7 +373,7 @@ figcaption {
   margin-top: 12px;
   padding-bottom: 12px;
 
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
 
   position: relative;
