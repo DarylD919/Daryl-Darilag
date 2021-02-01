@@ -123,7 +123,13 @@ a{
 
 /* home styling */
 .home{
-    background: rgb(45, 145, 63);
+    /* background: rgb(45, 145, 63); */
+    background: rgb(0,38,177);
+    background: -moz-linear-gradient(0deg, rgba(0,38,177,1) 0%, rgba(224,45,253,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0,38,177,1) 0%, rgba(224,45,253,1) 100%);
+    background: linear-gradient(0deg, rgba(0,38,177,1) 0%, rgba(224,45,253,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0026b1",endColorstr="#e02dfd",GradientType=1);
+
     width: 100%;
     display: flex;
     justify-content: center;
@@ -170,6 +176,10 @@ a{
     text-align: center;
     padding: 2rem 5rem;
     margin: 2rem;
+}
+
+.about button{
+  font-size: 2rem;
 }
 
 
