@@ -59,6 +59,10 @@ body {
   list-style: none;
 }
 
+.container a:hover{
+  color: #fff;
+}
+
 .container{
   position: fixed;
   top: 0;
@@ -84,7 +88,7 @@ body {
   width: 0%;
   height: 2px;
   content: '';
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   transition: all 0.3s;
 }
 
@@ -186,6 +190,14 @@ a{
   font-size: 2rem;
 }
 
+.fa-file-pdf:hover,
+.fa-github:hover,
+.fa-linkedin:hover{
+  color: #0000a1;
+}
+
+
+
 
 /* project */
 .project h1{
@@ -216,6 +228,17 @@ video{
 
 
 /* contact */
+.contact{
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .contact .card{
   text-align: center;
