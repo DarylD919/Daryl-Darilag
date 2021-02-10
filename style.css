@@ -12,8 +12,8 @@ html{
 }
   
 .max-width{
-  max-width: 1600px;
-  width: 100%;
+  max-width: 1300px;
+  width: 100%; 
   /* padding: 0 20px; */
   margin: auto;
 }
@@ -157,30 +157,63 @@ a{
 
 /* about me styling */
 
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  padding: 10px;
+}
 /* self-portrait */
 
 .about img{
-  margin-top: 8rem;
+  margin-top: 5rem;
   border-radius: 50%;
   height: 200px;
   width: 200px;
 }
 
+.about .row{
+  display: flex;
+  /* height: 65px; */
+  align-items: center;
+}
+
 
 /* about card */
+
 .about .card{
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.about .column-left{
+  width: 50%;
   padding: 1rem 2rem;
   margin-bottom: 10rem;
+  text-align: ce;
+}
+
+.about .column-right{
+  width: 50%;
+  padding: 1rem 2rem;
+  margin-bottom: 12rem;
+  text-align: center;
 }
 
 .about .title{
+  text-align: center;
   padding: 1rem 2rem;
 }
 
 
 .icon-links{
-  margin-top: 2rem;
+  margin-top: -5rem;
   font-size: 2rem;
 }
 
@@ -200,7 +233,7 @@ a{
 
 .project-pages{
   min-height: 100vh;
-  padding: 40px;
+  padding: 10px;
 
   display: flex;
   flex-wrap: wrap;
@@ -587,15 +620,100 @@ button:focus+.design-container {
 }
 
 /* responsive */
+
+@media(max-width: 800px){
+  .container a{
+    font-size: 0.7rem;
+  }
+
+  .home, .about, .project, .contact{
+    font-size: 0.5rem;
+  }
+
+  .home h1{
+    font-size: 1rem;
+  }
+
+  .about img{
+    height: 150px;
+    width: 150px;
+  }
+
+  .flip-card-container {
+  
+    width: 290px;
+    height: 260px;
+    margin: 0.5rem;
+  }
+
+  .icon-links{
+    font-size: 1rem;
+  }
+}
 @media(max-width: 600px){
   .container a{
     font-size: 0.7rem;
   }
+
+  .home, .about, .project, .contact{
+    font-size: 0.5rem;
+  }
+
+  .home h1{
+    font-size: 1rem;
+  }
+
+  .about img{
+    height: 150px;
+    width: 150px;
+  }
+
+  .flip-card-container {
+  
+    width: 290px;
+    height: 260px;
+    margin: 0.5rem;
+  }
+
+  .icon-links{
+    font-size: 1rem;
+  }
 }
 
 @media(max-width: 400px){
-  .max-width{
-    padding: 0 15px;
+  .home, .about, .project, .contact{
+    font-size: 0.5rem;
+  }
+
+  .home h1{
+    font-size: 1rem;
+  }
+
+  .about img{
+    height: 150px;
+    width: 150px;
+  }
+
+  .flip-card-container {
+  
+    width: 250px;
+    height: 250px;
+    margin: 0.5rem;
+
+  }
+  
+  /* .pages{
+    max-width: 500px;
+  } */
+  
+  
+  .about{
+    padding: 0 10px;
+    height: 50vh;
+  }
+  
+  .project-pages{
+    padding: 0 60px;
   }
 
   .container a{
@@ -605,19 +723,6 @@ button:focus+.design-container {
   .navbar.sticky{
     padding: 10px 20px;
     height: 50px;
-  }
-
-  .pages{
-    padding: 0 10px;
-  }
-
-
-  .about{
-    height: 115vh;
-  }
-
-  .project-pages{
-    padding: 0 60px;
   }
 }
 
