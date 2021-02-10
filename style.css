@@ -146,6 +146,12 @@ body {
   }
 }
 
+@media(max-width: 300px){
+  .container a{
+    font-size: 0.30rem;
+  }
+}
+
 /* common */
 
 a{
