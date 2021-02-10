@@ -711,8 +711,12 @@ button:focus+.design-container {
     padding: 0 10px;
     height: 50vh;
   }
+
+  .about .card{
+    margin-left: 2rem;
+  }
   
-  .project-pages{
+  .project{
     padding: 0 60px;
   }
 
@@ -724,6 +728,8 @@ button:focus+.design-container {
     padding: 10px 20px;
     height: 50px;
   }
+
+
 }
 
 @media(max-width: 300px){
