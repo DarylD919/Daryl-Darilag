@@ -286,6 +286,10 @@ video{
   text-align: center;
 }
 
+.head, .sub-title{
+  padding-top: 1rem;
+}
+
 /* card */
 /* .flip-card-container */
 .flip-card-container {
@@ -691,9 +695,9 @@ button:focus+.design-container {
     font-size: 1rem;
   }
 
-  .contact .row{
+  /* .contact .row{
     margin-bottom: 10rem;
-  }
+  } */
 }
 
 @media(max-width: 400px){
@@ -718,9 +722,6 @@ button:focus+.design-container {
 
   }
   
-  /* .pages{
-    max-width: 500px;
-  } */
   
   
   .about{
@@ -728,43 +729,30 @@ button:focus+.design-container {
     height: 50vh;
   }
 
-  /* .about .card{
-    margin-left: 2rem;
-  } */
-  
-  /* .project{
-    padding: 0 60px;
-  } */
-
   .container a{
     font-size: 0.55rem;
   }
 
   .navbar{
-    
     letter-spacing: 1px;
   }
 
   .contact .row{
+    grid-gap: 5px;
     font-size: 0.4rem;
-    margin-bottom: 10rem;
-  }
-  /*
-  .navbar a{
-    font-size: 0.4rem;
+    /* margin-bottom: 10rem; */
   }
 
-  .navbar.sticky{
-    padding: 10px 5px;
-    height: 40px;
-    width: 375px;
-  } */
 
 
 }
 
-@media(max-width: 300px){
+@media(max-width: 320px){
   .container a{
     font-size: 0.30rem;
+  }
+
+  .contact .row{
+    margin-bottom: 10rem;
   }
 }
