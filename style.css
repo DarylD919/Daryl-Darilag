@@ -718,17 +718,18 @@ button:focus+.design-container {
   }
 
   .navbar{
-    letter-spacing: 0.05rem;
+    margin-right: 20px;
+    letter-spacing: 2px;
   }
   
   .navbar a{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
 
   .navbar.sticky{
-    padding: 10px 5px;
+    padding: 15px 15px;
     height: 50px;
-    width: 375px;
+    width: 395px;
   }
 
 
