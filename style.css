@@ -717,11 +717,11 @@ button:focus+.design-container {
     font-size: 0.55rem;
   }
 
-  /* .navbar{
+  .navbar{
     
     letter-spacing: 1px;
   }
-  
+  /*
   .navbar a{
     font-size: 0.4rem;
   }
