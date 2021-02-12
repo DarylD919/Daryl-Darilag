@@ -718,18 +718,18 @@ button:focus+.design-container {
   }
 
   .navbar{
-    margin-right: 20px;
+    /* margin-right: 20px; */
     letter-spacing: 2px;
   }
   
   .navbar a{
-    font-size: 0.6rem;
+    font-size: 0.4rem;
   }
 
   .navbar.sticky{
-    padding: 15px 15px;
-    height: 50px;
-    width: 395px;
+    padding: 10px 5px;
+    height: 40px;
+    width: 375px;
   }
 
 
