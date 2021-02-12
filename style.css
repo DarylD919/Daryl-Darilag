@@ -718,7 +718,11 @@ button:focus+.design-container {
   }
 
   .navbar{
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
+  }
+  
+  .navbar a{
+    font-size: 0.5rem;
   }
 
   .navbar.sticky{
