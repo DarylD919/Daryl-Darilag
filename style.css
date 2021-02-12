@@ -752,7 +752,7 @@ button:focus+.design-container {
     font-size: 0.30rem;
   }
 
-  .contact .row{
-    margin-bottom: 10rem;
+  .contact .icons{
+    margin-top: -20rem;
   }
 }
