@@ -717,8 +717,8 @@ button:focus+.design-container {
     font-size: 0.55rem;
   }
 
-  .navbar{
-    /* margin-right: 20px; */
+  /* .navbar{
+    
     letter-spacing: 1px;
   }
   
@@ -730,7 +730,7 @@ button:focus+.design-container {
     padding: 10px 5px;
     height: 40px;
     width: 375px;
-  }
+  } */
 
 
 }
