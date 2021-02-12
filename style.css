@@ -627,6 +627,12 @@ button:focus+.design-container {
 
 /* responsive */
 
+@media(max-width: 1050px){
+  .project{
+    padding-top: 5rem;
+  }
+}
+
 @media(max-width: 800px){
   .container a{
     font-size: 0.7rem;
